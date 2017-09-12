@@ -4714,8 +4714,9 @@ small {
 }
 
 .card {
-  position: relative;
-  margin: 0.5rem 0 1rem 0;
+  float: left;
+
+  margin: 0.5rem 0.5rem 1rem 1rem;
   background-color: #fff;
   -webkit-transition: -webkit-box-shadow .25s;
   transition: -webkit-box-shadow .25s;
@@ -4760,10 +4761,12 @@ small {
 
 .card.small {
   height: 300px;
+  width: 300px;
 }
 
 .card.medium {
   height: 400px;
+  width: 400px;
 }
 
 .card.large {

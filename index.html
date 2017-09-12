@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!--Using Materialize components for styling http://materializecss.com -->
+<!-- Author: Mimi Chen -->
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Mimi Chen</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <!-- Navigation bar-->
+
+  <nav class="grey lighten-3" role="navigation">
+    <div class="nav-wrapper container">
+      <ul class="hide-on-med-and-down">
+        <li><a href="#AboutMe">$whoami</a></li>
+        <li><a href="#Projects">$projects</a></li>
+        <li><a href="#Images">$img</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#AboutMe"><i class="material-icons">person</i>AboutMe</a></li>
+        <li><a href="#Projects"><i class="material-icons">folder_open</i>Projects</a></li>
+        <li><a href="#Images"><i class="material-icons">photo_camera</i>Gallery</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse "><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <!-- AboutMe container-->
+  <div id="AboutMe" class="container">
+    <div class="section no-padding">
+        <div class="row">
+            <div class="col s5">
+                <img alt="Waving Bitmoji" src="images/wave.png">
+            </div>
+            <div class="col s7">
+                <h2 class="black-text left-align">Mimi Chen</h2>
+                <h5 class="black-text left-align">
+                    <i class="material-icons">computer</i> Senior CS student
+                    <br>
+                    <i class="material-icons">school</i> University of Notre Dame
+                    <br>
+                    <i class="material-icons">group</i>
+                    Leader of ND CSE LeanIn
+                </h5>
+            </div>
+        </div>
+    </div>
+  </div>
+
+<!-- Projects container-->
+<div id="Projects" class="container">
+    <div class="section black-text">
+        <h3 class="left-align"><i class="material-icons">folder_open</i> Projects</h3>
+        <div class="row">
+            <!--Numberjack-->
+            <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="images/numberjack.png">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">MOBI Numberjack<i class="material-icons right">more_vert</i></span>
+                    <p><a href="http://numberjack.io/">numberjack.io</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">MOBI Numberjack<i class="material-icons right">close</i></span>
+                    <p><b>What:</b> International phone number validator</p>
+                    <p><b>Contribution:</b></p>
+                    <ol>
+                        <li>Implemented CSV upload feature to batch process phone numbers</li>
+                        <li>Implemented the API to validate phone numbers with Numberjack</li>
+                        <li>Restructured the MVC design of the application</li>
+                        <li>Performed database migrations</li>
+                        <li>Designed and developed the user interface (navbar, table of contents, checkboxes)</li>
+                        <li>Wrote the Documentation and About pages</li>
+                    </ol>
+                    <p><b>Technologies:</b> Ruby on Rails, HAML, SCSS, JavaScript, PostgreSQL, Solr, Unicorn</p>
+                </div>
+            </div>
+            <!--Wake Forest-->
+            <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="images/wakeforest.png">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Wake Forest Marketing Analytics Summit<i class="material-icons right">more_vert</i></span>
+                    <p><a href="http://mimi.esc.nd.edu/marketing/">mimi.esc.nd.edu/marketing/</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Wake Forest Marketing Analytics Summit<i class="material-icons right">close</i></span>
+                    <p><b>What:</b> A mockup of how a university's marketing department website should be structured</p>
+                    <p><b>Contribution:</b> Developed website in HTML and CSS using W3 Bootstrap,
+                        researched and listed the available career paths of a marketing major,
+                        integrated the team's statistical analysis</p>
+                    <p><b>Technologies:</b> HTML, CSS, JavaScript</p>
+                </div>
+            </div>
+            <!--Food Tinder-->
+            <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="images/foodtinder.png">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Food Tinder<i class="material-icons right">more_vert</i></span>
+                    <p><a href="https://github.com/mimichen226/FoodTinder">GitHub Repository</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Food Tinder<i class="material-icons right">close</i></span>
+                    <p><b>What:</b> A web application of that matches a user to a restaurant based on the user's food preferences</p>
+                    <p><b>Contribution:</b> Developed website in JavaScript, HTML, and CSS</p>
+                    <p><b>Award:</b> Third Place and Best Design/ Most Polished at AT&T Hackathon - Notre Dame</p>
+                    <p><b>Technologies:</b> HTML, CSS, JavaScript</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Images container-->
+<div id="Images" class="container">
+    <div class="section">
+        <div class="row">
+            <h3 class="black-text left-align"><i class="material-icons">photo_camera</i> Gallery</h3>
+        </div>
+    </div>
+</div>
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
