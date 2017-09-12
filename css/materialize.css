@@ -4761,12 +4761,12 @@ small {
 
 .card.small {
   height: 300px;
-  width: 300px;
+  width: 30%;
 }
 
 .card.medium {
   height: 400px;
-  width: 400px;
+  width: 47%;
 }
 
 .card.large {
