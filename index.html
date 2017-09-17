@@ -11,62 +11,49 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="icon" type="image/png" href="images/Bitmoji/bitmoji-0.png">
 </head>
 <body>
-  <!-- Navigation bar-->
-  <nav class="grey lighten-3" role="navigation">
-    <div class="nav-wrapper container">
-      <ul class="hide-on-med-and-down">
-        <li><a href="#AboutMe">$whoami</a></li>
-        <li><a href="#Projects">$projects</a></li>
-        <li><a href="#Images">$img</a></li>
-      </ul>
-
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#AboutMe"><i class="material-icons">person</i>AboutMe</a></li>
-        <li><a href="#Projects"><i class="material-icons">folder_open</i>Projects</a></li>
-        <li><a href="#Images"><i class="material-icons">photo_camera</i>Gallery</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse "><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
 
   <!-- AboutMe container-->
   <div id="AboutMe" class="container">
-    <div class="section no-padding">
-        <div class="row hide-on-small-only">
-            <div class="col s6">
-                <img id="bitmoji" alt="Waving Bitmoji" src="images/Bitmoji/bitmoji-0.png">
+    <div class="section">
+        <br>
+        <div class="row">
+			<div class="col s6 center">
+				<br>
+                <img id="bitmoji" class="circle responsive-img" alt="Waving Bitmoji" src="images/Bitmoji/bitmoji-0.png">
             </div>
-            <div class="col s6">
+			<div class="col s6">
                 <h2 class="black-text left-align">Mimi Chen</h2>
                 <h5 class="grey-text left-align"><i>Be the best version of you.<br>Check for updates? <i class="material-icons">search</i></i></h5>
-                <p class="black-text left-align">
+                <p class="black-text left-align hide-on-small-only">
                     <i class="material-icons">computer</i> Senior CS student
                     <br>
                     <i class="material-icons">school</i> University of Notre Dame
                     <br>
-                    <i class="material-icons">group</i>Leader of ND CSE LeanIn
+                    <i class="material-icons">group</i> Leader of ND CSE LeanIn
                     <br>
-                    <i class="material-icons">flight</i>Travel enthusiast
+                    <i class="material-icons">flight</i> Travel enthusiast
                 </p>
             </div>
         </div>
-        <div class="row hide-on-med-and-up">
-            <div class="col s12 center">
-                <h2 class="black-text left-align no-pad-bot">Mimi Chen</h2>
-                <img id=alt="Waving Bitmoji" src="images/Bitmoji/bitmoji-0.png">
-                <h5 class="grey-text left-align"><i>Be the best version of you.<br>Check for updates? <i class="material-icons">search</i></i></h5>
-                <p class="black-text left-align">
+        <div class="row hide-on-med-and-up padding-top">
+                <p class="black-text left-align ">
+                    <div class="col s6">
                     <i class="material-icons">computer</i> Senior CS student
-                    <br>
-                    <i class="material-icons">school</i> University of Notre Dame
-                    <br>
-                    <i class="material-icons">group</i>Leader of ND CSE LeanIn
-                    <br>
-                    <i class="material-icons">flight</i>Travel enthusiast
+                    </div>
+                    <div class="col s6">
+                    <i class="material-icons">school</i> Notre Dame
+                    </div>
+                    <div class="col s6">
+                    <i class="material-icons">group</i> ND CSE LeanIn Leader
+                    </div>
+                    <div class="col s6">
+                    <i class="material-icons">flight</i> Travel enthusiast
+                    </div>
                 </p>
-            </div>
+
         </div>
     </div>
   </div>
@@ -75,13 +62,13 @@
 <div id="Projects" class="container">
     <div class="section black-text">
         <h3 class="left-align"><i class="material-icons">folder_open</i> Projects</h3>
-        <div class="row">
+        <div class="row ">
             <!--Numberjack-->
-            <div class="card medium">
+            <div class="col l4 m6 s12 card medium">
                 <div class="card-image waves-effect waves-block waves-light">
                     <img class="activator" src="images/numberjack.png">
                 </div>
-                <div class="card-content">
+                <div class="card-content ">
                     <span class="card-title activator grey-text text-darken-4">MOBI Numberjack<i class="material-icons right">more_vert</i></span>
                     <p><a href="http://numberjack.io/">numberjack.io</a></p>
                 </div>
@@ -101,7 +88,7 @@
                 </div>
             </div>
             <!--ConnectND-->
-            <div class="card medium">
+            <div class="col l4 m6 s12 card medium">
                 <div class="card-image waves-effect waves-block waves-light">
                     <img class="activator" src="images/connectnd.png">
                 </div>
@@ -115,7 +102,7 @@
                 </div>
             </div>
             <!--Wake Forest-->
-            <div class="card medium">
+            <div class="col l4 m6 s12 card medium">
                 <div class="card-image waves-effect waves-block waves-light">
                     <img class="activator" src="images/wakeforest.png">
                 </div>
@@ -132,7 +119,7 @@
                 </div>
             </div>
             <!--Color Merge Sort-->
-            <div class="card medium">
+            <div class="card col l4 m6 s12 medium">
                 <div class="card-image waves-effect waves-block waves-light">
                     <img class="activator" src="images/colormerge.png">
                 </div>
@@ -148,7 +135,7 @@
                 </div>
             </div>
             <!--Twitter Meme Bot-->
-            <div class="card medium">
+            <div class="card col l4 m6 s12 medium">
                 <div class="card-image waves-effect waves-block waves-light">
                     <img class="activator" src="images/memebot.png">
                 </div>
@@ -162,7 +149,7 @@
                 </div>
             </div>
             <!--Food Tinder-->
-            <div class="card medium">
+            <div class="card col l4 m6 s12 medium">
                 <div class="card-image waves-effect waves-block waves-light">
                     <img class="activator" src="images/foodtinder.png">
                 </div>
@@ -188,6 +175,15 @@
         <div class="row">
             <h3 class="black-text left-align"><i class="material-icons">photo_camera</i> Gallery</h3>
         </div>
+        <div class="carousel">
+          <a class="carousel-item" href="#one!"><img src="images/travel/chicago.jpg"></a>
+          <a class="carousel-item" href="#two!"><img src="images/travel/nebraska.jpg"></a>
+          <a class="carousel-item" href="#three!"><img src="images/travel/alicante.jpg"></a>
+          <a class="carousel-item" href="#four!"><img src="images/travel/toronto.jpg"></a>
+          <a class="carousel-item" href="#five!"><img src="images/travel/horseshoe.jpg"></a>
+          <a class="carousel-item" href="#six!"><img src="images/travel/lakepowell.jpg"></a>
+          <a class="carousel-item" href="#seven!"><img src="images/travel/nola.jpg"></a>
+        </div>
     </div>
 </div>
 
@@ -195,6 +191,6 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/application.js"></script>
-
+  <script src="js/init.js"></script>
   </body>
 </html>

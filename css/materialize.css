@@ -2308,7 +2308,7 @@ sub {
  * Remove border when inside `a` element in IE 8/9/10.
  */
 img {
-  border: 0;
+  border: 0.5;
 }
 
 /**
@@ -3287,6 +3287,8 @@ input[type=range] + .thumb {
 
 .circle {
   border-radius: 50%;
+  border-style: solid;
+  border-color: grey;
 }
 
 .center-block {
@@ -4715,8 +4717,7 @@ small {
 
 .card {
   float: left;
-
-  margin: 0.5rem 0.5rem 1rem 1rem;
+  margin: 0.5rem 0 1rem 0;
   background-color: #fff;
   -webkit-transition: -webkit-box-shadow .25s;
   transition: -webkit-box-shadow .25s;
@@ -4766,7 +4767,6 @@ small {
 
 .card.medium {
   height: 400px;
-  width: 47%;
 }
 
 .card.large {
@@ -8235,8 +8235,8 @@ input[type=range]:focus::-ms-fill-upper {
 
 .carousel .carousel-item {
   display: none;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   position: absolute;
   top: 0;
   left: 0;
