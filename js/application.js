@@ -7,4 +7,4 @@ function changeBitmoji(){
     image = "images/Bitmoji/bitmoji-" + image_id.toString() + ".png";
     bitmoji.src = image
 }
-window.setInterval(changeBitmoji, 5000);
+window.setInterval(changeBitmoji, 2000);
